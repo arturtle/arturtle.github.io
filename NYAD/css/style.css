@@ -1,7 +1,142 @@
-body{
-  background-color: #6d6d6d;
+body {
+  background-image: url("http://www.mirami-app.com/img/background1.jpg");
+  background-size: cover;
 }
-.header-content{
-  color: blue;
+
+.app-title {
+  font-family: 'Helvetica';
+}
+
+.test-bg {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.agency-logo img {
+  width: 100%;
+  max-height: 300px;
+}
+
+.card-bg-1 {
   background-color: red;
+}
+.card-bg-2 {
+  background-color: blue;
+}
+
+.button {
+  padding: .2em .75em;
+  font-size: 1.5em;
+  margin-bottom: .5em;
+  display: inline-block;
+}
+.button.white {
+  color: #fff;
+  border: 2px #fff solid;
+}
+.button.white:hover {
+  background-color: #fff;
+  color: #000;
+}
+.button.black {
+  color: #000;
+  border: 2px #000 solid;
+}
+.button.black:hover {
+  background-color: #000;
+  color: #fff;
+}
+.button:hover {
+  text-decoration: none;
+}
+.button.centered {
+  margin: 0 auto;
+}
+
+.home .title-holder {
+  top: 20vh;
+  position: relative;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+.home .title-holder h1.app-title {
+  font-weight: 900;
+  font-size: 3em;
+}
+.home .title-holder h2.app-subtitle {
+  font-weight: 300;
+  border: 2px solid #fff;
+  padding: 10px 15px;
+  font-size: 1.5em;
+  display: inline-block;
+}
+.home .search-holder {
+  bottom: -50vh;
+  position: relative;
+  text-align: center;
+}
+.home .search-holder a {
+  border: 4px solid #fff;
+  text-transform: uppercase;
+  font-size: 3em;
+  padding: .25em .5em;
+  color: #fff;
+  text-decoration: none;
+}
+.home .search-holder a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.page.top-pad {
+  margin-top: 8vh;
+  padding-bottom: 10vh;
+}
+
+.search {
+  /** ? **/
+}
+.search .search-card {
+  margin-bottom: 5em;
+  padding: 1em 1.25em;
+  background-color: #fff;
+  width: 24%;
+  margin-right: 1%;
+  display: inline-block;
+  vertical-align: top;
+}
+.search .search-card:last-of-type {
+  margin-right: 0%;
+}
+.search .agency-name {
+  font-size: 2em;
+}
+.search .agency-category {
+  font-size: 1.5em;
+}
+.search .agency-locations {
+  font-size: 1em;
+}
+.search-form-holder {
+  background-color: #fff;
+  margin-bottom: 1em;
+  padding: 1em 1.25em;
+}
+
+.profile-holder {
+  background-color: #fff;
+  padding: 1.5em 1.25em;
+}
+
+@media screen and (max-width: 992px) {
+  .search .agency-name {
+    font-size: 3em;
+  }
+  .search .agency-category {
+    font-size: 2.5em;
+  }
+  .search .agency-locations {
+    font-size: 1.5em;
+  }
 }
