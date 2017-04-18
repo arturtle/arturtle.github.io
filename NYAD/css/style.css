@@ -1,4 +1,58 @@
 body {
+  background-color: #232323;
+}
+
+.app-title{
+  font-family: "Segoe UI";
+}
+
+.button {
+  padding: .2em .75em;
+  font-size: 1.5em;
+  margin-bottom: .5em;
+  display: inline-block;
+}
+
+.home .title-holder {
+  top: 10vh;
+  position: relative;
+  color: #fff;
+  text-align: left;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+
+.home .title-holder h1.app-title {
+  font-weight: 900;
+  font-size: 3em;
+}
+.home .title-holder h2.app-subtitle {
+  font-family: "Segoe UI";
+  font-weight: 400;
+  font-size: 2em;
+  display: inline-block;
+}
+.home .search-holder {
+  bottom: -45vh;
+  position: relative;
+  text-align: right;
+  font-weight: 500;
+}
+.home .search-holder a {
+  font-family: "Segoe UI";
+  border: 4px solid #fff;
+  text-transform: uppercase;
+  font-size: 2em;
+  padding: .25em .5em;
+  color: #fff;
+  text-decoration: none;
+}
+.home .search-holder a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/*body {
   background-image: url("http://www.mirami-app.com/img/background1.jpg");
   background-size: cover;
 }
@@ -95,7 +149,6 @@ body {
 }
 
 .search {
-  /** ? **/
 }
 .search .search-card {
   margin-bottom: 5em;
@@ -140,3 +193,4 @@ body {
     font-size: 1.5em;
   }
 }
+*/
